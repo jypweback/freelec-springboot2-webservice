@@ -1,0 +1,22 @@
+spring:
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  h2:
+    console:
+      enabled: true
+
+  session:
+    store-type: jdbc
+
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 1062840658346-qlso6r2rhj3oqav9jn0j2tlotm5ddvlu.apps.googleusercontent.com
+            client-secret: qy5RRU_7rUVa64mvn2ResV3Q
+            scope: profile,email
+
