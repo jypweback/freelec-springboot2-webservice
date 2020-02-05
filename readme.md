@@ -46,8 +46,15 @@
 5. EC2 SSH 접속(MAC)
 6. EC2 서버 환경셋팅
   - java8 설치
-  - 타임존 변경(기본 서버시간은 미국시간대)
-  - HostName 설정 
+  - 타임존 변경(기본 서버시간은 미국시간)
+  - HostName 설정
+  
+ >  ch07 : AWS RDS ( storage : 20GB )
+1. MariaDB 인스턴스 생성(퍼블릭 엑세스 설)
+2. 파라미터 그룹 생성 및 연결
+  - 타임존
+  - Character Set
+  - Max Connection
   
  
 
