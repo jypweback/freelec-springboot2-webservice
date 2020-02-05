@@ -36,9 +36,20 @@
 - @WebMvcTest( WebSecurityConfigurerAdapter, WebMvcConfigurer, @ControllerAdvice, @Controller)만 읽는다
   - @Repository,@Service,@Component는 스캔 대상이 아님.
   
->  ch06 : AWS EC2
--
-
+>  ch06 : AWS EC2 ( vCpu : 1 core / memory : 1GB / storage : 30GB )
+1. 인스턴스 생성
+2. 서버 스펙 설정(하드웨어 스펙 및 스토리지 용량)
+3. 보안그룹 설정(방화벽)
+  - SSH 접속은 보안에 유의하자.(지정된 IP에서만 접속이 가능하도록)
+4. 탄력적 IP 할당(인스턴스를 다시 시작하면 IP가 변경됨)
+  - 탄력적 IP는 생성하고 인스턴에서 바로 연결해야된다(비용 발생)
+5. EC2 SSH 접속(MAC)
+6. EC2 서버 환경셋팅
+  - java8 설치
+  - 타임존 변경(기본 서버시간은 미국시간대)
+  - HostName 설정 
+  
+ 
 
 
 ```
