@@ -4,7 +4,7 @@
 > ch02
 - 테스트코드는 반드시 작성하자.
 - 테스트코드로 먼저 확인후 프로젝트를 실행해 확인하기.
-- gradle 4/5 버전별 lombok 및 jpa 설정이 상이하다(현업에서는 .4 버전을 많이 사용
+- gradle 4/5 버전별 lombok 및 jpa 설정이 상이하다(현업에서는 .4 버전을 많이 사용)
 
 > ch03 : JPA
 - Entity는 DB와 밀접한 클래스임으로 Request/Response DTO 클래스를 별도로 구성하자!
@@ -49,12 +49,24 @@
    2. 타임존 변경(기본 서버시간은 미국시간)
    3. HostName 설정
   
- >  ch07 : AWS RDS ( storage : 20GB )
+>  ch07 : AWS RDS ( storage : 20GB )
 1. MariaDB 인스턴스 생성(퍼블릭 엑세스 설)
 2. 파라미터 그룹 생성 및 연결
    1. 타임존
    2. Character Set
    3. Max Connection
+3. 로컬 -> RDS / EC2 -> RDS 접속 테스트
+
+>  ch08 : 프로젝트 배포
+1. ec2 git 설치 및 프로젝트 clone
+2. maven or gradle 프로젝트 테스트 및 빌드
+3. 배포 쉘스크립트 작성
+   - nohup : 터미널이 종료될떄 애플리케이션은 계속 구동되도록 하기 위함
+   - pgrep : 프로세스 id를 찾음
+   
+
+
+
   
  
 
