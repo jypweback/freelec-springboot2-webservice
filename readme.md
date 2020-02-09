@@ -77,6 +77,8 @@
 4. aws ec2-codedeploy 연동
    - IAM 역할추가
    - ec2 CodeDeploy Agent 설치
+   - 실제 서비스될 파일은 .jar,appspec.yml,배포를 위한 스크립트이다. 이 외 나머지는 제외하도록 하자
+   
    
 
    
