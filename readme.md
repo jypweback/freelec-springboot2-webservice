@@ -74,7 +74,11 @@
    - IAM 서비스 이용(Identity And Access Management)
    - IAM에서 발급된 접근키,비밀키를 Travis에 셋팅
    - S3 버킷 생성 및 연동
+4. aws ec2-codedeploy 연동
+   - IAM 역할추가
+   - ec2 CodeDeploy Agent 설치
    
+
    
 
 
