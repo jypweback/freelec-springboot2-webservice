@@ -80,6 +80,18 @@
    - 실제 서비스될 파일은 .jar,appspec.yml,배포를 위한 스크립트이다. 이 외 나머지는 제외하도록 하자
    - CodeDeploy log 확인 ( /opt/codedeploy-agent/deployment-root)
    
+> ch10 : 무중단 배포(CD : Continuous Delivery)
+
+1. 무중단 배포방식
+   - AWS Blue-Green(사내에서 비용지원이 많으면 구축할 필요없이 선택하면된다.)
+   - Docker
+   - L4 Switch(고가 장비 필요)
+   - Nginx(저렴하고 쉽다)
+2. Nginx
+   - 리버스 프록시(외부의 요청을 받아 벡엔드서버로 요청을 전달)
+   
+ 
+   
    
 
    
