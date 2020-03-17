@@ -13,6 +13,7 @@ import javax.persistence.*;
 public class Posts extends BaseTimeEntity{
 
 
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
